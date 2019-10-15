@@ -5,7 +5,6 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {ScatterMenuComponent} from './scatter-plot/scatter-menu/scatter-menu.component';
 import {ScatterPlotComponent} from './scatter-plot/scatter-plot.component';
-import {FlexLayoutModule} from '@angular/flex-layout';
 import {createCustomElement} from '@angular/elements';
 import {
   MatButtonModule, MatCardModule, MatCheckboxModule, MatIconModule, MatMenuModule, MatProgressSpinnerModule,
@@ -15,6 +14,7 @@ import {MatRippleModule} from '@angular/material/core';
 import {FooterComponent} from './footer/footer.component';
 import {HhsBannerComponent} from './hhs-banner/hhs-banner.component';
 import {SctlNavbarComponent} from './sctl-navbar/sctl-navbar.component';
+import {FlexLayoutModule} from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
